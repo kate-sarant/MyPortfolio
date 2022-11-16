@@ -1,0 +1,54 @@
+@media(max-width:700px){
+body{
+  min-width: 400px;
+  header{
+    div#top.header1.row{
+      div.contactBtn{
+        top: 1px;
+  left: 393px;
+      }
+      div.CVBtn.card{
+        top: 1px;
+      left: 393px;
+      }
+    }
+  }
+  main{
+
+    #Bio{
+      position: relative;
+          z-index: -1;
+          margin-bottom: 0px;
+          margin-top: 0px;
+          top: -12px;
+          width: 100%;
+    }
+
+.Genwrapper{
+  .project{
+        text-align: center;
+        img{
+          max-width: 90%;
+          margin: 0 auto;
+          border-radius: 12px;
+        }
+    .imgUl{
+      display:inline-grid;
+
+      ul{
+        top:21;
+        right:0;
+        list-style: none;
+
+      }
+    }
+  }
+
+}
+
+}
+
+
+
+}
+}

@@ -1,0 +1,272 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+
+/* bootstrap icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+
+$light-purple:#e0cee100;
+$light-blue:rgb(191 188 249);
+$light-green:#19ec774a;
+$shadow-stack:rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+$letters:'Comfortaa', cursive;
+$weight-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+
+
+html,body{
+  margin: 0 auto;
+  padding: 0;
+  min-width: 350px;
+  height: auto;
+  max-width: 1300px;
+  font-family: "Notable", sans-serif;
+ scroll-behavior: smooth;
+
+p{
+  font-family: $letters;
+
+}
+.blight{
+  padding: 2%;
+      position: fixed;
+      right: 38px;
+      top: 380px;
+      border-radius: 100%;
+      z-index: 100;
+      background-color: rgb(191 188 249 / 52%);
+}
+.blight:hover{
+  background-color: $light-blue;
+}
+.CVBtn.card{
+  font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    padding: 4px;
+    position: relative;
+top: 123px;
+  height: 34px;
+}
+
+.CVBtn p:nth-child(2){
+  display:block;
+  opacity: 0;
+}
+.CVBtn p:first-child:hover ~p:nth-child(2) {
+  opacity: 2;
+  color:#007bff;
+  position: relative;
+  top: -81px;
+  left: -40px
+}
+
+header{
+
+  background-color:#2219ec4a;
+
+    .header1{
+      box-shadow: $weight-shadow;
+
+      display:flex;
+      backround-color:blue;
+      text-aline:1px;
+      padding: 3%;
+          position: relative;
+
+
+      #myPic{
+        max-width :155px;
+       border-radius:100%;
+        margin:2px;
+
+      }
+      .contactBtn{
+        position: absolute;
+        top: 156px;
+        left: 164px;
+        font-weight: 900;
+        font-size: 23px;
+      }
+
+      h2{
+        letter-spacing:1px;
+        margin:0 auto;
+        position: relative;
+        font-weight: 700;
+            text-align: left;
+
+      }
+    }
+}
+
+
+
+.siteMenu{
+  float: right;
+    text-align: end;
+        padding: 3%;
+        font-family: $letters;
+        font-size: 24px;
+
+
+
+        ul{
+        .siteMenuLi{
+              list-style: none;
+              width: 100%;
+              cursor: pointer;
+              a{
+                  color:black;
+
+              }
+
+             }
+          .siteMenuLi:hover{
+               font-size: 23px;
+               background-color:#19ec774a;
+               display: flex;
+               text-align: center;
+               padding: 1%;
+              transition: 1.5s;
+
+
+             }
+
+
+
+        }
+
+  }
+
+main{
+display: inline-block;
+
+
+#projects_title{
+  position: relative;
+  background-color: $light-green;
+  padding-left:22px;
+  margin-top: 12px;
+    transition-duration: 3s;
+font-family: $letters;
+}
+#contacts{
+  h3{
+  background-color: $light-blue;
+    padding-left:22px;
+    margin-top: 12px;
+font-family: $letters;
+  }
+
+
+  p{
+    margin: 0 auto;
+    width: 50%;
+    letter-spacing: 3px;
+    padding: 14px;
+  }
+
+
+}
+
+.Bio{
+  margin-bottom: 105px;
+margin-top: 105px;
+  box-sizing: content-box;
+  width: 40%;
+  align-items: center;
+  background-color: rgb(109 22 112 / 21%);
+  padding: 5%;
+  letter-spacing: 2px;
+  border-radius: 2%;
+  box-shadow: $weight-shadow;
+  }
+hr{
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+.Genwrapper{
+
+  position: relative;
+  padding: 2%;
+  width: 100%;
+.infoProj{
+letter-spacing: 1px;
+text-transform: capitalize;
+}
+
+  .projects_title{
+    background-color: $light-green;
+  }
+  .project{
+      margin-top: 5%;
+    p{
+      width: 50%;
+text-align: center;
+margin: 0 auto;
+    }
+    img{
+      max-width: 250px;
+    }
+
+    .imgUl {
+      padding:2%;
+        display: flex;
+        justify-content: space-evenly;
+        :nth-child(2){
+          position: relative;
+
+
+        }
+        ul{
+          position: relative;
+          right: 7rem;
+          top: 31px;
+        }
+  }
+
+
+}
+}
+
+
+.Genwrapper:nth-child(2n+1){
+  .inner_container{
+    float:right;
+  }
+}
+
+
+
+
+}
+footer{
+  font-family: $letters;
+  font-size: 12px;
+  box-shadow:$shadow-stack;
+  width: 100%;
+      margin-top: 10%;
+      .social{
+        display: flex;
+        text-align: center;
+        height: 70px;
+        margin-bottom: 63px;
+        justify-content: center;
+        position: relative;
+        top: 24px;
+
+          li.card{
+            display: inline-block;
+            padding: 2%;
+      font-size: 1.2rem;
+        color: blue;
+      i.bi{
+        padding: 2px;
+      }
+          }
+
+      }
+
+}
+}
+@import 'mobile';
