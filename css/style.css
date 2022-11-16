@@ -207,11 +207,11 @@ html footer .social li.card i.bi, body footer .social li.card i.bi {
   }
   body header div#top.header1.row div.contactBtn {
     top: 1px;
-    left: 393px;
+    left: 325px;
   }
   body header div#top.header1.row div.CVBtn.card {
     top: 1px;
-    left: 393px;
+    left: 294px;
   }
   body main #Bio {
     position: relative;
@@ -219,7 +219,7 @@ html footer .social li.card i.bi, body footer .social li.card i.bi {
     margin-bottom: 0px;
     margin-top: 0px;
     top: -12px;
-    width: 100%;
+    width: 83%;
   }
   body main .Genwrapper .project {
     text-align: center;
