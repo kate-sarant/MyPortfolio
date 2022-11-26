@@ -201,7 +201,7 @@ html footer .social li.card i.bi, body footer .social li.card i.bi {
   padding: 2px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   body {
     min-width: 400px;
   }
