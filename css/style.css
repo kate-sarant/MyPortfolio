@@ -47,6 +47,8 @@ html .CVBtn p:first-child:hover ~ p:nth-child(2), body .CVBtn p:first-child:hove
 }
 html header, body header {
   background-color: rgba(34, 25, 236, 0.2901960784);
+ width: 95%;
+ margin: 0 auto;
 }
 html header .header1, body header .header1 {
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
