@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ /* Mark Simonson - Proxima Nova */
+ @font-face {
+    font-family: 'ProximaNova-bold';
+    src: url("../accents/fonts/Mark Simonson - Proxima Nova Bold.otf");
+  
+    }
+    @font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url("../accents/fonts/Mark Simonson - Proxima Nova Regular.otf");
+    /* font-weight: normal; */
+    }
+
+    /* SourceSansPro-Bold */
+    @font-face {
+    font-family: 'SourceSansProBold';
+    src: url("../accents/fonts/SourceSansPro-Bold.ttf");
+  
+    }
+    @font-face {
+    font-family: 'SourceSansPro';
+    src: url("../accents/fonts/SourceSansPro-Regular.ttf");
+    /* font-weight: normal; */
+    }
+
+    a, button {
+      @apply cursor-pointer;
+      
+    }
+  
+    /* hover:from-pink-500 hover:to-yellow-500 */
