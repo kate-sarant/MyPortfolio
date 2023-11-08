@@ -58,6 +58,9 @@ You can deploy this portfolio project to various hosting platforms, such as GitH
 
 - [Tailwind CSS](https://tailwindcss.com/): The CSS framework used in this project.
 
+  ## Live page
+  -[Click here](https://myportfolio-katesarant.netlify.app/)
+
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
