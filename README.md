@@ -61,8 +61,9 @@ You can deploy this portfolio project to various hosting platforms, such as GitH
   ## Live page
   -[Click here](https://myportfolio-katesarant.netlify.app/)
 
-## License
+## Usage Rights
 
-This project is open-source and available under the [MIT License](LICENSE).
+This CV is provided for informational purposes only and is not intended for modification or distribution without express permission. All rights reserved.
+
 
 Feel free to reach out to me if you have any questions or need further assistance. Happy coding!
